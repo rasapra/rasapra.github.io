@@ -1,0 +1,176 @@
+body {
+    font-family: "Lucida Handwriting", cursive;
+    background-color: #5e8a69;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  header {
+    background-color: #43664b;
+    color: rgba(255, 255, 255, 0.589);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  
+  h1,
+  h2 {
+    margin: 1em 0;
+    line-height: 1.8;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: rgba(255, 255, 255, 0.932);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin: 3em auto;
+    padding: 10px;
+    background-color: rgb(156, 185, 129);
+    border-radius: 8px;
+    max-width: 1000px;
+    width: 90%;
+  }
+  
+  .profile-image,
+  .blog-image,
+  .road-image,
+  .gate-image,
+  .contact-image {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .contact-box,
+  .feedback-box {
+    background-color: #5e8a69;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(196, 184, 184, 0.1);
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    max-width: 400px;
+  }
+  
+  h2 {
+    color: rgba(255, 255, 255, 0.589);
+    margin: 0 0 20px 0;
+  }
+  
+  .contact-info {
+    color: rgba(255, 255, 255, 0.815);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.589);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.589);
+    color: rgba(46, 44, 44, 1);
+  }
+  
+  button {
+    background-color: rgba(255, 255, 255, 0.589);
+    color: rgba(46, 44, 44, 1);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e3ecdf57;
+  }
+  
+  #scrollToTop {
+    position: fixed;
+    left: 1px;
+    bottom: 150px;
+    background-color: rgb(141, 170, 114);
+    border: none;
+    padding: 10px;
+    margin: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #scrollToTop:hover {
+    background-color: rgba(94, 88, 38, 0.774);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(100, 91, 10, 0.8);
+    color: rgba(255, 255, 255, 0.589);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  footer li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    padding: 0 5px;
+  }
+  
+  footer li a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    footer {
+      text-align: center;
+    }
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .contact-box,
+    .feedback-box {
+      max-width: 350px;
+    }
+  }
+  

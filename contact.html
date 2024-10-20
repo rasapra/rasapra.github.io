@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktai</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Sutark su savimi ir tu sutarsi su visu pasauliu</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Apie mane</a></li>
+          <li><a href="blog.html">Mano dienoraštis</a></li>
+          <li><a href="contact.html">Kontaktai</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="contact-box">
+          <h2>Mano kontaktai</h2>
+          <p class="contact-info">Rasa Praninskienė</p>
+          <p class="contact-info">El. paštas: rasiukaspr@gmail.com</p>
+          <p class="contact-info">Telefono numeris: +370 671 08 826</p>
+        </div>
+      </section>
+      <section>
+        <div class="feedback-box">
+          <h2>Tavo kontaktai ir atsiliepimas</h2>
+          <form id="contact-form" action="feet_back.php" method="post">
+            <label for="name">Vardas:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">El. paštas:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="feedback">Atsiliepimas:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+
+            <button type="submit">Siųsti</button>
+          </form>
+        </div>
+      </section>
+      <section>
+        <img src="kontaktai.jpg" alt="Kontaktai" class="contact-image" />
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Sutark su savimi. Visos teisės saugomos.</p>
+      <li><a href="#privacy">Privatumo politika</a></li>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("scrollToTop").onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
