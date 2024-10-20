@@ -21,7 +21,7 @@ header {
 h1,
 h2 {
   margin: 1em 0;
-  line-height: 1.8; 
+  line-height: 1.8;
 }
 
 h1 {
@@ -30,6 +30,8 @@ h1 {
 
 h2 {
   font-size: 20px;
+  color: rgba(255, 255, 255, 0.589);
+  margin: 0 0 20px 0;
 }
 
 p {
@@ -57,12 +59,12 @@ nav a:hover {
 }
 
 section {
-  margin: 3em auto; 
+  margin: 3em auto;
   padding: 10px;
   background-color: rgb(156, 185, 129);
-  border-radius: 8px; 
-  max-width: 1000px; 
-  width: 90%; 
+  border-radius: 8px;
+  max-width: 1000px;
+  width: 90%;
 }
 
 .profile-image,
@@ -70,10 +72,10 @@ section {
 .road-image,
 .gate-image,
 .contact-image {
-  max-width: 70%; 
-  height: auto; 
-  display: block; 
-  margin: 20px auto; 
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
 .contact-box,
@@ -87,11 +89,6 @@ section {
   padding-bottom: 10px;
   padding-left: 15px;
   max-width: 400px;
-}
-
-h2 {
-  color: rgba(255, 255, 255, 0.589);
-  margin: 0 0 20px 0;
 }
 
 .contact-info {
@@ -132,23 +129,24 @@ button:hover {
 
 #scrollToTop {
   position: fixed;
-  left: 1px;
+  left: 10px;
   bottom: 150px;
   background-color: rgb(141, 170, 114);
   border: none;
   padding: 10px;
-  margin: 13px;
+  margin: 2px;
   border-radius: 3px;
-  cursor: pointer
-  transition: background-color 0.2s;
+  cursor: pointer;
+  transition: background-color 0.1s;
 }
+
 #scrollToTop:hover {
   background-color: rgba(94, 88, 38, 0.774);
 }
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   background-color: rgba(100, 91, 10, 0.8);
   color: rgba(255, 255, 255, 0.589);
   position: relative;
@@ -173,13 +171,13 @@ footer li a:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 28px; 
- }
+    font-size: 30px;
+  }
   h2 {
-    font-size: 24px; 
+    font-size: 26px;
   }
   p {
-    font-size: 18px; 
+    font-size: 20px;
   }
   footer {
     text-align: center;
@@ -191,5 +189,9 @@ footer li a:hover {
   .contact-box,
   .feedback-box {
     max-width: 350px;
+  }
+
+  footer {
+    padding: 2px;
   }
 }
