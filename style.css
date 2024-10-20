@@ -21,9 +21,9 @@ header {
 h1,
 h2 {
   margin: 1em 0;
-  line-height: 1.8; /* Atstumas viršuje ir apačioje */
+  line-height: 1.8; 
 }
-/* Pagrindiniai H1, H2 ir P šrifto dydžiai */
+
 h1 {
   font-size: 24px;
 }
@@ -57,12 +57,12 @@ nav a:hover {
 }
 
 section {
-  margin: 3em auto; /* Atstumas aplink skyrius */
+  margin: 3em auto; 
   padding: 10px;
   background-color: rgb(156, 185, 129);
-  border-radius: 8px; /* Šiek tiek suapvalinti kampai */
-  max-width: 1000px; /* Maksimalus plotis, kad būtų nedideli atstumai */
-  width: 90%; /* Arba galite naudoti procentinę reikšmę */
+  border-radius: 8px; 
+  max-width: 1000px; 
+  width: 90%; 
 }
 
 .profile-image,
@@ -70,10 +70,10 @@ section {
 .road-image,
 .gate-image,
 .contact-image {
-  max-width: 70%; /* Užtikrina, kad paveikslėlis pritaikytųsi prie skyriaus pločio */
-  height: auto; /* Išlaiko proporcijas */
-  display: block; /* Priverčia paveikslėlį tapti blokiniu elementu */
-  margin: 20px auto; /* Prideda erdvę aplink paveikslėlį ir centrą */
+  max-width: 70%; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
 }
 
 .contact-box,
@@ -173,13 +173,13 @@ footer li a:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 28px; /* Padidintas H1 dydis */
+    font-size: 28px; 
  }
   h2 {
-    font-size: 24px; /* Padidintas H2 dydis */
+    font-size: 24px; 
   }
   p {
-    font-size: 18px; /* Padidintas P dydis */
+    font-size: 18px; 
   }
   footer {
     text-align: center;
