@@ -1,5 +1,5 @@
 body {
-  font-family: "Lucida Handwriting", cursive;
+  font-family: "Lucida Handwriting";
   background-color: #5e8a69;
   margin: 0;
   padding: 0;
@@ -141,12 +141,12 @@ button:hover {
 }
 
 #scrollToTop:hover {
-  background-color: rgba(94, 88, 38, 0.774);
+  background-color: rgba(128, 123, 68, 0.178);
 }
 
 footer {
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   background-color: rgba(100, 91, 10, 0.8);
   color: rgba(255, 255, 255, 0.589);
   position: relative;
@@ -172,12 +172,14 @@ footer li a:hover {
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
+    color: black;
   }
   h2 {
     font-size: 26px;
   }
   p {
     font-size: 20px;
+    color: black;
   }
   footer {
     text-align: center;
