@@ -181,22 +181,21 @@ footer li a:hover {
 }
 
 @media (max-width: 600px) {
+  body {
+    font-family: "Lucida Handwriting", cursive;
+  }
   h1 {
     font-size: 30px;
-    color: black;
   }
   h2 {
     font-size: 26px;
   }
   p {
     font-size: 20px;
-    color: black;
   }
   footer {
     text-align: center;
-    padding: 2px;
   }
-
   nav li {
     display: block;
     margin-bottom: 10px;
@@ -204,5 +203,8 @@ footer li a:hover {
   .contact-box,
   .feedback-box {
     max-width: 350px;
+  }
+  .notes-image {
+    max-width: 60%;
   }
 }
