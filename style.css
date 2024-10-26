@@ -182,7 +182,7 @@ footer li a:hover {
 
 @media (max-width: 600px) {
   body {
-    font-family: "Lucida Handwriting", cursive;
+    font-family: "Lucida Handwriting cursive";
   }
   h1 {
     font-size: 30px;
@@ -192,6 +192,9 @@ footer li a:hover {
   }
   p {
     font-size: 20px;
+  }
+  .notes-image {
+    max-width: 60%;
   }
   footer {
     text-align: center;
@@ -203,8 +206,5 @@ footer li a:hover {
   .contact-box,
   .feedback-box {
     max-width: 350px;
-  }
-  .notes-image {
-    max-width: 60%;
   }
 }
