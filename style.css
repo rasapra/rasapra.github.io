@@ -78,6 +78,17 @@ section {
   margin: 20px auto;
 }
 
+.notes-image {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+._blank {
+  color: #333;
+}
+
 .contact-box,
 .feedback-box {
   background-color: #5e8a69;
