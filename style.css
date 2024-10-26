@@ -76,6 +76,7 @@ section {
   height: auto;
   display: block;
   margin: 20px auto;
+  border-radius: 5x;
 }
 
 .notes-image {
@@ -83,6 +84,7 @@ section {
   height: auto;
   display: block;
   margin: 20px auto;
+  border-radius: 5x;
 }
 
 ._blank {
